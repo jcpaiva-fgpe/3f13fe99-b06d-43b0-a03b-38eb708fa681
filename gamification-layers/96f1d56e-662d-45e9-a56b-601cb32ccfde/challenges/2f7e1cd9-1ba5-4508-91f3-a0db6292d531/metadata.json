@@ -1,1 +1,1 @@
-{"id":"2f7e1cd9-1ba5-4508-91f3-a0db6292d531","name":"Challenge nr 1","description":"opis","refs":[],"mode":"NORMAL","mode_parameters":[],"locked":false,"hidden":false,"difficulty":"BEGINNER","children":[]}
+{"id":"2f7e1cd9-1ba5-4508-91f3-a0db6292d531","name":"Challenge nr 1","description":"opis","refs":["f7f53f20-5bb5-4bf5-bcea-922cfae67374"],"mode":"NORMAL","mode_parameters":[],"locked":false,"hidden":false,"difficulty":"BEGINNER","children":[]}
