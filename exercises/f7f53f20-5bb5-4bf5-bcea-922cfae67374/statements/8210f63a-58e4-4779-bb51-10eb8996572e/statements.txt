@@ -1,0 +1,11 @@
+Pętle
+Programy często muszą wykonywać te same instrukcje wielokrotnie.
+
+Do zapisu powtórzenia wykonywania instrukcji w programie w języku Python używamy pętli.
+
+Najprostszy rodzaj pętli tworzymy słowem while, po którym piszemy instrukcję, która ma się powtarzać, np. pisząc: while int(wiek) < 18: wiek = raw_input('Podaj wiek:') chcemy, by program tak długo wczytywał wiek od użytkownika, aż ten przyzna, że ma co najmniej 18 lat.
+
+W przypadku, gdy instrukcji, które mają się powtarzać jest więcej niż jedna, wypisujemy je poniżej słowa while, pamiętając, by wszystkie te, które mają się powtarzać były wcięte w prawo (np. tabulatorem) – patrz przykładowy program, w którym linie 3 i 4 (wcięte) zawierają ciało pętli (czyli to, co ma się powtarzać), a linia 5 – instrukcję, która wykona się już po zakończeniu pętli (bo nie jest już wcięta tabulatorem w prawo).
+
+
+Ćwiczenie 5.1. Przekształć poniższy program tak, by w przypadku wieku poniżej 18 lat, zamiast napisu Jeszcze niepełnoletni. wyświetlał napis Do pełnoletności brakuje Ci jeszcze X lat., przy czym zamiast X ma pojawiać się właściwa liczba, np. dla kogoś w wieku 15 lat będzie to 3, a w wieku 17 lat – 1. Uruchom program, podaj jako swój wiek najpierw 7, a za drugą próbą 21.
